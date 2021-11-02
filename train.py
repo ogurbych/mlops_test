@@ -31,3 +31,5 @@ clf.fit(train_pool,
         metric_period=10,
         plot=True,
         verbose=50)
+
+clf.save_model("model.cbm")
