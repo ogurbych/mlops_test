@@ -2,7 +2,7 @@
 
 1. Install Minikube and kubectl
 2. Dockerize `train.py`. Take into account that the container image:
-- reads the data files (`*.csv`) from the outer persistent storage (local PC or any other accessible storage)
+- reads the data files (`dermatology.data`) from the outer persistent storage (local PC or any other accessible storage)
 - stores training and error logs (`log_cout.txt` and `log_err.txt`), aligned with the binary file of the trained model (`model.cbm`) to the outer persistent storage (local PC or any other accessible storage)
 4. Create and run Minikube cluster
 5. Prepare kubectl configuration that
